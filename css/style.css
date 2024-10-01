@@ -695,10 +695,11 @@ body {
 }
 
 .blog-pic {
-    width: 100%;
-    height: 160px;
-    border-radius: 15px;
-    margin-bottom: 20px;
+	width: 100%;
+	height: 160px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	object-fit: cover;
 }
 
 .blog-pic-heading {
@@ -741,7 +742,6 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-top: -35px;
     margin-bottom: 10px;
 }
 
