@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .nav-menu{
+        margin: 0;
+    }
+    .button-flex{
+        margin: 0;
+    }
+    .nav-menu-active::after{
+        width: 16%;
+    }
+    .nav-menu:hover::after{
+        width: 30%;
+    }
+    .play-btn-text{
+        display: none;
+    }
+    .hero-sction-postion{
+        border-radius: 10px;
+    }
+    .sceond-box{
+        display: none;
+    }
+    .first-box {
+        width: 75%;
+        margin-top: -138%;
+        height: 57px;
+    }
+    .appointment-position-box{
+        display: none;
+    }
+    .appointment-position-box-2{
+        margin-top: 120%;
+    }
+    .testimonial-section-box-pic{
+        margin-top: 0;
+    }
+    .end-section-flex{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-top: 14%;
+    }
+    .swiper-button-prev{
+        margin-top: 14%;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .banner-section-heading{
+        font-size: 40px;
+    }
+    .banner-btn {
+        padding: 15px 25px;
+        font-size: 13px;
+    }
+    .first-box{
+        width: 70%;
+        height: 55px;
+        margin-top: -120%;
+    }
+    .third-box {
+        margin-left: 0;
+        margin-top: -30%;
+        width: 100%;
+    }
+    .hero-pic{
+        width: 100%;
+    }
+    .services-scetion-box{
+        margin-bottom: 20px;
+    }
+    .services-scetion-box-2{
+        margin-bottom: 20px;
+    }
+    .services-teg {
+        margin-top: 37%;
+    }
+    .appointment-section-text{
+        margin-top: 15%;
+    }
+    .appointment-position-box{
+        display: none;
+    }
+    .appointment-position-box-2{
+        width: 48%;
+        margin-top: 110%;
+    }
+    .appointment-section-btn{
+        margin-bottom: 20px;
+    }
+    .services-teg-2{
+        margin-top: 25%;
+    }
+    .consultation-position-pic-2{
+        display: none;
+    }
+    .blog-btn{
+        margin-bottom: 30px;
+    }
+    .testimonial-section-box-pic{
+        margin: 0;
+    }
+    .swiper-button-next{
+        margin-top: 24%;
+    }
+    .swiper-button-prev{
+        margin-top: 24%;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .first-box{
+        width: 80%;
+        height: 55px;
+        margin-top: -148%;
+    }
+    .appointment-position-box-2{
+        width: 48%;
+        margin-top: 125%;
+    }
+    .appointment-position-pic{
+        height: 420px;
+    }
+    
+    .swiper-button-next{
+        margin-top: 30%;
+    }
+    .swiper-button-prev{
+        margin-top: 30%;
+    }
+}
