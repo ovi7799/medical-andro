@@ -28,6 +28,9 @@ body {
     padding: 0.5%;
     background-color: #F9FBFA;
 }
+.navbar-fix{
+    position: fixed;
+}
 
 .logo {
     color: var(--text-color) !important;
@@ -166,20 +169,26 @@ body {
     align-items: center;
     margin-bottom: 20px;
 }
+.col-posiotion{
+    position: relative;
+}
 
 .hero-sction-postion {
-    position: relative;
     width: 100%;
     height: 470px;
     background-color: #E6F0FE;
     margin-top: 5%;
     margin-bottom: 20px;
     border-radius: 37% 63% 54% 46% / 30% 30% 70% 70%;
+    overflow: hidden;
 }
 
 .hero-pic {
-    width: 90%;
-    height: 470px;
+	width: 80%;
+	height: 470px;
+	margin: 0 auto;
+	display: flex;
+	object-fit: contain;
 }
 
 .first-box {
@@ -370,10 +379,10 @@ body {
 }
 
 .appointment-position-pic {
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    border-radius: 400px 10px 400px 400px;
+	width: 85%;
+	height: 500px;
+	position: absolute;
+	border-radius: 400px 10px 400px 400px;
 }
 
 .appointment-position-box {
@@ -489,10 +498,10 @@ body {
 }
 
 .consultation-position-pic {
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    border-radius: 15px;
+	position: absolute;
+	width: 90%;
+	height: 370px;
+	border-radius: 15px;
 }
 
 .consultation-position-pic-2 {
@@ -537,6 +546,7 @@ body {
     height: 340px;
     border-radius: 10px 10px 0 0;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .doctor-name {
@@ -704,6 +714,13 @@ body {
     margin-bottom: 20px;
 }
 
+.blog-background {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+    padding: 2%;
+    border-radius: 10px;
+}
+
 
 #testimonial-section {
     width: 100%;
@@ -745,62 +762,70 @@ body {
     font-weight: 400;
 }
 
-#end-section{
+#end-section {
     width: 100%;
     padding: 2%;
     background-color: var(--white-color);
 }
-.end-section-teg{
+
+.end-section-teg {
     color: var(--text-color);
     font-size: 30px;
     font-weight: 600;
 }
-.end-section-text{
+
+.end-section-text {
     color: var(--gray-color);
     font-size: 14px;
     font-weight: 400;
 }
-.end-section-flex{
+
+.end-section-flex {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
 }
-.end-section-icon{
-    width: 50px;
-    height: 50px;
+
+.end-section-icon {
+    width: 40px;
+    height: 40px;
     border: 1px solid var(--primary-color);
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
 .end-icon {
-	color: var(--primary-color);
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	margin-top: 13px;
+    color: var(--primary-color);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
-.end-section-main{
+
+.end-section-main {
     color: var(--text-color);
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.end-section-main-teg{
+
+.end-section-main-teg {
     color: var(--gray-color);
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .end-input {
-	width: 100%;
-	padding: 12px;
-	border-radius: 31px;
-	outline: none;
-	border: 2px solid var(--text-color);
+    width: 100%;
+    padding: 12px;
+    border-radius: 31px;
+    outline: none;
+    border: 2px solid var(--text-color);
     margin-bottom: 20px;
 }
-.input-btn{
+
+.input-btn {
     color: var(--white-color);
     background-color: var(--primary-color);
     padding: 15px 0;
@@ -809,20 +834,106 @@ body {
     border-radius: 200px;
     margin-bottom: 20px;
 }
-.end-line{
+
+.end-line {
     width: 100%;
     height: 1px;
     background-color: var(--gray-color);
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.end-para{
+
+.end-para {
     color: var(--gray-color);
     font-size: 15px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+    color: var(--white-color);
+    font-size: 1rem;
+    padding: 0 10px;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-color);
+}
+
+.back-to-top:hover span {
+    transform: translateY(-4px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+    color: var(--white-color);
+    font-size: 1rem;
+    padding: 0 10px;
+    transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-color);
+}
+
+.back-to-top:hover span {
+    transform: translateY(-4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -839,20 +950,21 @@ body {
 
 
 .swiper-button-next {
-	color: var(--white-color);
-	background-color: var(--primary-color);
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	margin-top: 8%;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
 }
+
 .swiper-button-prev {
-	color: var(--white-color);
-	background-color: var(--primary-color);
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	margin-top: 8%;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
 }
 
 .swiper-button-next::after {
