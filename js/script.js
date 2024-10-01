@@ -6,7 +6,7 @@ $(".count").each(function () {
                 Counter: $(this).text(),
             },
             {
-                duration: 2000,
+                duration: 25000,
                 easing: "swing",
                 step: function (now) {
                     now = Number(Math.ceil(now)).toLocaleString('en');

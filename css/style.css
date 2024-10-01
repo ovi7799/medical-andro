@@ -299,6 +299,20 @@ body {
     text-transform: uppercase;
     padding-top: 5%;
 }
+.services-teg2 {
+    color: var(--mainTeg-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+.services-teg22 {
+    color: var(--mainTeg-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
 
 .services-teg-2 {
     color: var(--mainTeg-color);
@@ -317,15 +331,6 @@ body {
 }
 
 .services-scetion-box {
-    width: 100%;
-    padding: 5%;
-    background-color: #F9FAFB;
-    border-radius: 8px;
-    margin-bottom: 100px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.services-scetion-box-2 {
     width: 100%;
     padding: 5%;
     background-color: var(--white-color);
