@@ -46,6 +46,9 @@
         height: 490px;
         margin-bottom: 40px;
     }
+    .navbar-brand {
+        width: 20%;
+    }
 }
 
 @media only screen and (max-width: 774px) {
@@ -56,10 +59,9 @@
         padding: 15px 25px;
         font-size: 13px;
     }
+    
     .first-box {
-        width: 70%;
-        height: 55px;
-        margin-top: -114%;
+        margin-top: 0;
     }
     .third-box {
         margin-left: 0px;
@@ -126,6 +128,23 @@
         height: 400px;
         margin-bottom: 40px;
     }
+    .hospital-photo {
+        width: 80%;
+        height: 355px;
+    }
+    .hospital-photo-2 {
+        width: 75%;
+        height: 330px;
+    }
+    .about-company-name-2{
+        margin-top: 0;
+    }
+    .navbar-brand{
+        width: 40%;
+    }
+    .delivary-section-flex{
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 421px) {
@@ -162,9 +181,8 @@
         margin-top: -30%;
         width: 93%;
     }
+    
     .first-box {
-        width: 75%;
-        height: 55px;
-        margin-top: -128%;
+        margin-top: 0;
     }
 }
