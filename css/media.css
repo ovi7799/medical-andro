@@ -42,6 +42,10 @@
     .swiper-button-prev{
         margin-top: 14%;
     }
+    .contact-google-map{
+        height: 490px;
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width: 774px) {
@@ -117,6 +121,10 @@
     }
     .consultation-position-pic{
         width: 100%;
+    }
+    .contact-google-map{
+        height: 400px;
+        margin-bottom: 40px;
     }
 }
 
